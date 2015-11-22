@@ -11,7 +11,6 @@
 makeCacheMatrix <- function(x = matrix(x <- c(), ncol = sqrt(length(x)))) {
 
     m <- NULL
-	
     set <- function(y) {
         x <<- y
         m <<- NULL
